@@ -1,0 +1,15 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Netpower.Intern2022S2.Core\Netpower.Intern2022S2.Core.csproj" />
+    <ProjectReference Include="..\Netpower.Intern2022S2.DTOs\Netpower.Intern2022S2.DTOs.csproj" />
+    <ProjectReference Include="..\Netpower.Intern2022S2.Entities\Netpower.Intern2022S2.Entities.csproj" />
+  </ItemGroup>
+
+</Project>

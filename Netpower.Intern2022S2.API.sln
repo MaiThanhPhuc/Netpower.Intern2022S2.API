@@ -1,0 +1,60 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32922.545
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netpower.Intern2022S2.API", "Netpower.Intern2022S2.API\Netpower.Intern2022S2.API.csproj", "{EFCC2FC1-3363-4E06-A2D5-E64FA984ACA0}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netpower.Intern2022S2.Services", "Netpower.Intern2022S2.Services\Netpower.Intern2022S2.Services.csproj", "{9F31E6E5-3AF7-4E03-A96A-F3ABB2391F8F}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netpower.Intern2022S2.Core", "Netpower.Intern2022S2.Core\Netpower.Intern2022S2.Core.csproj", "{51C00057-6CC5-495F-8FAA-440BAD83515E}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netpower.Intern2022S2.DTOs", "Netpower.Intern2022S2.DTOs\Netpower.Intern2022S2.DTOs.csproj", "{92C9B832-0FAB-4255-BB03-0E090E365522}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netpower.Intern2022S2.Entities", "Netpower.Intern2022S2.Entities\Netpower.Intern2022S2.Entities.csproj", "{97E51247-3578-426B-9C4E-473CF3D0E9A5}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Netpower.Intern2022S2.Repositories", "Netpower.Intern2022S2.Repositories\Netpower.Intern2022S2.Repositories.csproj", "{1E0D037E-1674-4773-B162-785D83D98AC2}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{B3E546C6-B890-40C3-8FA3-17E91D07B0D5}"
+	ProjectSection(SolutionItems) = preProject
+		.editorconfig = .editorconfig
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EFCC2FC1-3363-4E06-A2D5-E64FA984ACA0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFCC2FC1-3363-4E06-A2D5-E64FA984ACA0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFCC2FC1-3363-4E06-A2D5-E64FA984ACA0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFCC2FC1-3363-4E06-A2D5-E64FA984ACA0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9F31E6E5-3AF7-4E03-A96A-F3ABB2391F8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9F31E6E5-3AF7-4E03-A96A-F3ABB2391F8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9F31E6E5-3AF7-4E03-A96A-F3ABB2391F8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9F31E6E5-3AF7-4E03-A96A-F3ABB2391F8F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{51C00057-6CC5-495F-8FAA-440BAD83515E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{51C00057-6CC5-495F-8FAA-440BAD83515E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{51C00057-6CC5-495F-8FAA-440BAD83515E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{51C00057-6CC5-495F-8FAA-440BAD83515E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{92C9B832-0FAB-4255-BB03-0E090E365522}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{92C9B832-0FAB-4255-BB03-0E090E365522}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{92C9B832-0FAB-4255-BB03-0E090E365522}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{92C9B832-0FAB-4255-BB03-0E090E365522}.Release|Any CPU.Build.0 = Release|Any CPU
+		{97E51247-3578-426B-9C4E-473CF3D0E9A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{97E51247-3578-426B-9C4E-473CF3D0E9A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{97E51247-3578-426B-9C4E-473CF3D0E9A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{97E51247-3578-426B-9C4E-473CF3D0E9A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1E0D037E-1674-4773-B162-785D83D98AC2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1E0D037E-1674-4773-B162-785D83D98AC2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1E0D037E-1674-4773-B162-785D83D98AC2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1E0D037E-1674-4773-B162-785D83D98AC2}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {A56B69E2-9B4B-4C4C-B833-F6EE90BACAA7}
+	EndGlobalSection
+EndGlobal

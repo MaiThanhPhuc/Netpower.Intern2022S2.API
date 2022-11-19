@@ -1,0 +1,23 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="BCrypt.Net-Next" Version="4.0.3" />
+    <PackageReference Include="Microsoft.AspNetCore.Http.Abstractions" Version="2.2.0" />
+    <PackageReference Include="Microsoft.Extensions.Configuration.Binder" Version="6.0.0" />
+    <PackageReference Include="System.IdentityModel.Tokens.Jwt" Version="6.23.1" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Netpower.Intern2022S2.Core\Netpower.Intern2022S2.Core.csproj" />
+    <ProjectReference Include="..\Netpower.Intern2022S2.DTOs\Netpower.Intern2022S2.DTOs.csproj" />
+    <ProjectReference Include="..\Netpower.Intern2022S2.Entities\Netpower.Intern2022S2.Entities.csproj" />
+    <ProjectReference Include="..\Netpower.Intern2022S2.Repositories\Netpower.Intern2022S2.Repositories.csproj" />
+  </ItemGroup>
+
+</Project>
